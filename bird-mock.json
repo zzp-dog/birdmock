@@ -1,0 +1,8 @@
+{
+    "local-proxy": {
+        "api": "/api",
+        "url": "http://localhost",
+        "port": 4201,
+        "changeOrigin": true
+    }
+}

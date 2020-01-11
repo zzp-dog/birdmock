@@ -1,0 +1,27 @@
+{
+  "name": "@bigbigbird/mock",
+  "version": "1.0.7",
+  "description": "前端mock调试",
+  "main": "index.js",
+  "bin": {
+    "birdmock": "bin/birdmock.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mock"
+  ],
+  "author": "bigbigbird",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "eruda": "^1.9.1",
+    "log4js": "^5.3.0",
+    "mockjs": "^1.1.0",
+    "cross-env": "^6.0.3"
+  }
+}
