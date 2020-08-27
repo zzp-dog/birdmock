@@ -58,7 +58,7 @@ module.exports = {
 module.exports = {
     // 键值可以是函数也可以是对象
     '/example': (params) => {
-        if (params.id === 1) {
+        if (params.id === '1') {
             return {
                 status: 200,
                 data: {

@@ -1,27 +1,30 @@
 {
-  "name": "@bigbigbird/mock",
-  "version": "1.0.7",
-  "description": "前端mock调试",
-  "main": "index.js",
-  "bin": {
-    "birdmock": "bin/birdmock.js"
-  },
-  "directories": {
-    "lib": "lib"
-  },
+  "name": "birdmock",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "vue-cli-service serve --port=8081",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "birdmock": "birdmock"
   },
-  "keywords": [
-    "mock"
-  ],
-  "author": "bigbigbird",
-  "license": "ISC",
   "dependencies": {
+    "axios": "^0.20.0",
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11",
+    "vue-class-component": "^7.2.3",
+    "vue-property-decorator": "^8.4.2"
+  },
+  "devDependencies": {
+    "@bigbigbird/mock": "^1.0.9",
+    "@vue/cli-plugin-babel": "^4.5.0",
+    "@vue/cli-plugin-typescript": "^4.5.0",
+    "@vue/cli-service": "^4.5.0",
     "colors": "^1.4.0",
-    "eruda": "^1.9.1",
-    "log4js": "^5.3.0",
+    "cross-env": "^7.0.2",
+    "log4js": "^6.3.0",
     "mockjs": "^1.1.0",
-    "cross-env": "^6.0.3"
+    "typescript": "~3.9.3",
+    "vue-template-compiler": "^2.6.11"
   }
 }

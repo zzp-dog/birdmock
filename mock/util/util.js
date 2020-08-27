@@ -1,5 +1,33 @@
-var fs = require('fs');
+/*
+ * Created Date: Saturday, August 22nd 2020, 11:09:54 pm
+ * Author: 木懵の狗纸
+ * ---------------------------------------------------
+ * Description: birdmock工具
+ * ---------------------------------------------------
+ * Last Modified: Sunday August 23rd 2020 11:15:53 pm
+ * Modified By: 木懵の狗纸
+ * Contact: 1029512956@qq.com
+ * Copyright (c) 2020 ZXWORK
+ */
 
+var fs = require('fs');
+const os = require('os');
+
+/**
+ * 获取本机ip
+ */
+function getIPAdress() {
+    var interfaces = os.networkInterfaces();
+    for (var devName in interfaces) {
+        var iface = interfaces[devName];
+        for (var i = 0; i < iface.length; i++) {
+            var alias = iface[i];
+            if (alias.family === 'IPv4' && alias.address !== '127.0.0.1' && !alias.internal) {
+                return alias.address;
+            }
+        }
+    }
+}
 
 /**
  * 遍历文件
@@ -42,5 +70,6 @@ function debounce(f, t, c) {
 
 module.exports = {
     forEachFile,
-    debounce
+    debounce,
+    getIPAdress
 }

@@ -1,0 +1,85 @@
+[2020-08-27T00:00:20.118] [INFO] default - [zzp-dog.github.io] [/birdmock/package.json]GET=>请求参数:
+{}
+[2020-08-27T00:00:20.623] [INFO] default - [zzp-dog.github.io] [/birdmock/package.json]GET=>响应:
+{
+	"name": "@bigbigbird/mock",
+	"version": "1.0.7",
+	"description": "前端mock调试",
+	"main": "index.js",
+	"bin": {
+		"birdmock": "bin/birdmock.js"
+	},
+	"directories": {
+		"lib": "lib"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"mock"
+	],
+	"author": "bigbigbird",
+	"license": "ISC",
+	"dependencies": {
+		"colors": "^1.4.0",
+		"eruda": "^1.9.1",
+		"log4js": "^5.3.0",
+		"mockjs": "^1.1.0",
+		"cross-env": "^6.0.3"
+	}
+}
+[2020-08-27T00:08:28.365] [INFO] default - [localhost:4200] [/example?id=1]GET=>请求参数:
+{
+	"id": "1"
+}
+[2020-08-27T00:08:28.374] [INFO] default - [localhost:4200] [/example?id=1]GET=>响应:
+{
+	"status": 400,
+	"data": {
+		"content": "我是示例mock返回的数据2"
+	}
+}
+[2020-08-27T00:08:47.135] [INFO] default - [localhost:4200] [/example?id=1]GET=>请求参数:
+{
+	"id": "1"
+}
+[2020-08-27T00:08:47.139] [INFO] default - [localhost:4200] [/example?id=1]GET=>响应:
+{
+	"status": 400,
+	"data": {
+		"content": "我是示例mock返回的数据2"
+	}
+}
+[2020-08-27T00:09:24.090] [INFO] default - [localhost:4200] [/example?id=1]GET=>请求参数:
+{
+	"id": "1"
+}
+[2020-08-27T00:09:24.092] [INFO] default - [localhost:4200] [/example?id=1]GET=>响应:
+{
+	"status": 400,
+	"data": {
+		"content": "我是示例mock返回的数据2"
+	}
+}
+[2020-08-27T23:47:25.637] [INFO] default - [localhost:4200] [/example?id=1]GET=>请求参数:
+{
+	"id": "1"
+}
+[2020-08-27T23:47:25.647] [INFO] default - [localhost:4200] [/example?id=1]GET=>响应:
+{
+	"status": 400,
+	"data": {
+		"content": "我是示例mock返回的数据2"
+	}
+}
+[2020-08-27T23:47:51.865] [INFO] default - [localhost:4200] [/example?id=1]GET=>请求参数:
+{
+	"id": "1"
+}
+[2020-08-27T23:47:51.889] [INFO] default - [localhost:4200] [/example?id=1]GET=>响应:
+{
+	"status": 200,
+	"data": {
+		"content": "我是示例mock返回的数据1"
+	}
+}

@@ -1,0 +1,16 @@
+[2020-08-24T23:28:34.965] [INFO] default - [localhost:8081] [/birdmock/package.json]GET=>请求参数:
+{}
+[2020-08-24T23:33:08.068] [INFO] default - [localhost:8081] [/birdmock/package.json]GET=>请求参数:
+{}
+[2020-08-24T23:39:43.289] [INFO] default - [localhost:8081] [/birdmock/package.json]GET=>请求参数:
+{}
+[2020-08-24T23:40:22.812] [INFO] default - [localhost:8081] [/birdmock/package.json]GET=>请求参数:
+{}
+[2020-08-24T23:41:30.527] [INFO] default - [localhost:8081] [/birdmock/package.json]GET=>请求参数:
+{}
+[2020-08-24T23:44:02.355] [INFO] default - [localhost:8081] [/birdmock/package.json]GET=>请求参数:
+{}
+[2020-08-24T23:44:40.924] [INFO] default - [localhost:8081] [/birdmock/package.json]GET=>请求参数:
+{}
+[2020-08-24T23:46:41.199] [INFO] default - [localhost:8081] [/birdmock/package.json]GET=>请求参数:
+{}
